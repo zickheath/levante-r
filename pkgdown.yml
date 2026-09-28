@@ -3,7 +3,7 @@ pkgdown: 2.2.1
 pkgdown_sha: ~
 articles:
   levante_walkthrough: levante_walkthrough.html
-last_built: 2026-09-24T16:32Z
+last_built: 2026-09-28T21:53Z
 urls:
   reference: https://levante-framework.github.io/levante-r/reference
   article: https://levante-framework.github.io/levante-r/articles
