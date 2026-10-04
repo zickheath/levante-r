@@ -11,15 +11,19 @@ R package for accessing LEVANTE data. Some useful links:
 ## Installation
 
 ```
-# install.packages("devtools") # if you need the devtools package, uncomment this line
-devtools::install_git("levante-framework/levante-r")
+install.packages("devtools")
+pak::pak("levante-framework/levante-r")
+library(levante)
 ```
 
 ## Usage
 
 A collection of `get_()` functions to acquire LEVANTE data. For example, use `get_scores()` to download scored cognitive task data. 
 ```
-scores <- get_scores(data_source = "levante-data-example:d0rt", version = "current")
+#Data is from levante public data version 3.0 released August 2026
+surveys <- get_surveys(data_source = "levante_data_pilots:68kn:v3_0")
+scores <- get_scores(data_source = "levante_data_pilots:68kn:v3_0")
+
 ```
 To understand how those scores are produced — and to reproduce or audit them yourself using the LEVANTE model registry — see the [Scoring and the model registry](https://levante-framework.github.io/levantemodels/articles/scoring-and-model-registry.html) vignette.
 
