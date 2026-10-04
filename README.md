@@ -12,7 +12,7 @@ R package for accessing LEVANTE data. Some useful links:
 
 ```
 install.packages("devtools")
-pak::pak("levante-framework/levante-r")
+pak::pak("levante-framework/levante-r") 
 library(levante)
 ```
 
