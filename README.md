@@ -23,7 +23,9 @@ A collection of `get_()` functions to acquire LEVANTE data. For example, use `ge
 #Data is from levante public data version 3.0 released August 2026
 surveys <- get_surveys(data_source = "levante_data_pilots:68kn:v3_0")
 scores <- get_scores(data_source = "levante_data_pilots:68kn:v3_0")
-
+participants <- get_participants(data_source = "levante_data_pilots:68kn:v3_0")
+trials <- get_trials(data_source = "levante_data_pilots:68kn:v3_0")
+items <- get_items(data_source = "levante_data_pilots:68kn:v3_0")
 ```
 To understand how those scores are produced — and to reproduce or audit them yourself using the LEVANTE model registry — see the [Scoring and the model registry](https://levante-framework.github.io/levantemodels/articles/scoring-and-model-registry.html) vignette.
 
